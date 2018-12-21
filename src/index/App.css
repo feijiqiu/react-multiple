@@ -1,0 +1,36 @@
+.App{
+  height: 100vh;
+  overflow: hidden;
+}
+.edit-content-wrapper{
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.m-edit-side-menu{
+  position: relative;
+  height: 100%;
+  width: 40px;
+  display: inline-block;
+  vertical-align: top;
+}
+.edit-stage-wrapper{
+  position: relative;
+  height: 100%;
+  width: calc(100% - 40px);
+  display: inline-block;
+}
+.m-iframe,
+.m-edit-stage{
+  border: none;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 16px;
+  bottom: 0;
+  width: 100%;
+  height: calc(100% - 16px);
+}
+.m-edit-stage .edit-overlay-elm{
+  border: 1px red solid;
+}
